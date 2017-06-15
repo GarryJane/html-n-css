@@ -1,0 +1,10 @@
+.container {
+    position: relative;
+    border: 1px solid green;
+    display: table; /* рабчий хак для нормальной работы контейнера */
+}
+
+.float {
+    float: left;
+    border: 1px solid grey;
+}
