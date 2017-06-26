@@ -1,0 +1,16 @@
+$c : 51px
+$d : 51px
+
+=size($a, $b)
+  width: $a
+  height: $b
+
+
+div
+  +size(50px, 50px)
+  background-color: green
+  span
+    +size($c, $d)
+
+
+
